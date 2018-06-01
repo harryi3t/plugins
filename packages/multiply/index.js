@@ -1,5 +1,3 @@
-module.exports = function (...numbers) {
-  return numbers.reduce((product, num) => {
-    return product * num;
-  }, 1);
+module.exports = function (a, b) {
+  return a * b;
 };
